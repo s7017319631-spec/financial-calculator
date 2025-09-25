@@ -1,0 +1,231 @@
+# ===============================
+# Python специфичные файлы
+# ===============================
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# C extensions
+*.c
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# PyInstaller
+*.manifest
+*.spec
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+.pytest_cache/
+cover/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# IPython
+profile_default/
+ipython_config.py
+
+# pyenv
+.python-version
+
+# pipenv
+Pipfile
+Pipfile.lock
+
+# poetry
+poetry.lock
+
+# pdm
+.pdm.toml
+
+# ===============================
+# Streamlit специфичные файлы
+# ===============================
+
+# Streamlit config and cache
+.streamlit/
+streamlit.log
+
+# ===============================
+# Операционные системы
+# ===============================
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# Linux
+.directory
+
+# ===============================
+# IDE и редакторы кода
+# ===============================
+
+# VS Code
+.vscode/
+*.code-workspace
+
+# PyCharm
+.idea/
+*.iws
+*.iml
+*.ipr
+
+# Sublime Text
+*.sublime-*
+sublime-text/
+
+# Vim
+*.swp
+*.swo
+*~
+
+# Eclipse
+.project
+.pydevproject
+.settings/
+
+# ===============================
+# Environment variables
+# ===============================
+
+# Environment variables
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# ===============================
+# Логи и временные файлы
+# ===============================
+
+# Log files
+*.log
+logs/
+
+# Temporary files
+*.tmp
+*.temp
+.temp/
+
+# ===============================
+# Данные приложения
+# ===============================
+
+# CSV files with sensitive data (опционально)
+# secret_data.csv
+# passwords.csv
+# personal_finance.csv
+
+# Database files
+*.db
+*.sqlite
+*.sqlite3
+
+# Excel files (если не хотите отслеживать)
+# *.xlsx
+# *.xls
+
+# ===============================
+# Деплой и билд файлы
+# ===============================
+
+# Docker
+Dockerfile
+.dockerignore
+
+# Heroku
+*.heroku
+
+# Package files
+*.7z
+*.dmg
+*.gz
+*.iso
+*.jar
+*.rar
+*.tar
+*.zip
+
+# ===============================
+# Документация
+# ===============================
+
+# Sphinx documentation
+docs/_build/
+
+# ===============================
+# Тестовые данные
+# ===============================
+
+# Test data and fixtures
+test_data/
+fixtures/
+mock_data/
+
+# ===============================
+# Файлы конкретно для вашего проекта
+# ===============================
+
+# Персональные настройки
+my_settings.ini
+personal_config.py
+
+# Файлы с API ключами (ОЧЕНЬ ВАЖНО!)
+api_keys.py
+secrets.py
+config_private.py
+
+# Кэш графиков и временные изображения
+/tmp/
+/cache/
+*.png
+*.jpg
+*.jpeg
+*.gif
