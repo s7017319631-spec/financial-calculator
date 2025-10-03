@@ -803,7 +803,7 @@ with tab3:
                 st.metric(
                     t("difference"),
                     f"{eps_result - eps_nominal_rate:.2f}%",
-                    delta=f"{overpayment_ratio:.1f}% {t("from_nominal")}",
+                    delta=f"{overpayment_ratio:.1f}% {t('from_nominal')}",
                 )
 
         # Детализация денежных потоков
