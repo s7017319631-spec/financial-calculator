@@ -1275,9 +1275,3 @@ st.markdown(
     f"<div style='text-align: center; color: gray;'>{footer_texts[st.session_state.language]}</div>",
     unsafe_allow_html=True,
 )
-
-# ЗАПУСК ПРИЛОЖЕНИЯ
-
-if __name__ == "__main__":
-    # Дополнительная инициализация
-    pass
